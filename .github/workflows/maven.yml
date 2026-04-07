@@ -10,8 +10,8 @@ name: Java CI with Maven
 
 on:
   workflow_dispatch:
-  schedule:
-  - cron: "*/5 * * * *"
+  # schedule:
+  # - cron: "*/5 * * * *"
 
 jobs:
   build:
